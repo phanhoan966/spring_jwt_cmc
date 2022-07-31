@@ -79,6 +79,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring_jwt_cmc</finalName>
 	</build>
 
 </project>

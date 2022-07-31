@@ -1,4 +1,5 @@
 package com.example.spring_jwt_cmc.domain.form;
+
 import lombok.Data;
 
 @Data

@@ -3,7 +3,6 @@ package com.example.spring_jwt_cmc.domain.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -19,6 +18,9 @@ public class User {
     private Long id;
     private String name;
     private String userName;
+    private String email;
+    private String phone;
+    private String adress;
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)
     private Collection<Role> roles = new ArrayList<>();
